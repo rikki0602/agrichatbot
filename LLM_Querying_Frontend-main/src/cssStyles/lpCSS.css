@@ -1,0 +1,7 @@
+.scrollable-content {
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    }
+    .scrollable-content::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+    }
